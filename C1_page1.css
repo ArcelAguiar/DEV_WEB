@@ -1,0 +1,24 @@
+
+
+table {
+    border-collapse: collapse;
+    border: 2px black solid;
+    font: 14px sans-serif;
+  }
+
+  td {
+    border: 1px black solid;
+    padding: 5px;
+  }
+  tr:nth-child(even) {
+    background-color: #ddd;
+  }
+
+  body{
+    background-color: rgb(230, 240, 239);
+    
+}
+
+h1{
+    background-color: rgb(200, 228, 224);
+}
