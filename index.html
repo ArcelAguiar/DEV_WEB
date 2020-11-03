@@ -1,0 +1,41 @@
+<!-------------------------------------------------------------------------------------------
+    FAESA_Desenvolvimento WEB I
+---------------------------------------------------------------------------------------------
+    Projeto.........: HTML + javascript 
+    Subsistema......:
+    Modulo..........: Jogo para buscar cores da pagina W3c e gerar um vetor com 10 
+                      cores aleatoriamente e pedir para o usuário escolher. Acertando
+                      dar os parabéns, caso contrário dizer que perdeu
+    Versao..........: 1.0
+    Compilacao......: Visual estudio Code
+    Status..........: Em Desenvolvimento
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+        [03/11/2020 - Arcel]:
+          => Buscar todas as cores no site https://www.w3schools.com/colors/colors_names.asp
+          => Gerar vetor randomicamente
+        [03/11/2020 - Arcel]: 
+          => Correção de Bug na variável "var" para "let"  
+ -------------------------------------------------------------------------------------------->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body id="fundo">
+    <div id="content">
+        <p id="demo"></p>
+        <input type="text" placeholder="encontre a cor" class="meu-input">
+        <button class="button" onclick="valorInput()">Buscar</button>
+        <p class="teste"></p>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
